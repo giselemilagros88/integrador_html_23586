@@ -1,0 +1,56 @@
+*{
+    /*resetear algunos valores que vienen por defecto en las etiquetas*/
+}
+/*clases utilitarias*/
+.colorWhite{
+    color: white;
+}
+.colorGris{
+    color: rgb(155,156,160);
+}
+.colorVerde{
+    color: rgb(40,167,69);
+}
+.colorFondoGradiente{
+    background-image: linear-gradient(to right, #1c3844, #1c3f4f, #1c465a, #1c4c66, #1e5372);
+}
+/*estilados del header*/
+/*
+header nav ul li{
+    list-style: none;
+}*/
+/*
+.ocultar{
+    display: none;
+}*/
+header .listaItem{
+    list-style: none;
+    display: none;
+}
+.contenedorLogoNav{
+    background-color: rgb(53,58,64);
+    /*height: 200px;*/
+    font-size: 1.5rem;
+    color:white;
+}
+.linkNav{
+    text-decoration: none;
+}
+/*propiedad que se llama display, la tienen todos los elementos por defecto
+
+display:block; ocupan todo el ancho de su contenedor padre , div, footer, nav, section, header, main, article, aside
+display:inline; ocupan solo lo que tienen como contenido, img, iframe, a , span , video
+
+display:inline-block; ocupan solo lo que tienen como contenido, img, iframe, a , span , video, pero se comportan como block (para el concepto de box modeling)
+
+display:none; no ocupa lugar en el html, no se ve en la web
+
+display:flex; hace que el contenedor sea un contenedor flexible y esto habilita muchas propiedas magicas (flexbox)
+
+display:grid; hace que el contenedor sea un contenedor grilla ,me habilita ubicar a los hijos en filas y columnas
+
+*/
+
+.footer a{
+    color:white;
+}
