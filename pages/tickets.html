@@ -6,6 +6,13 @@
     <title>Comprar tickets</title>
      <!--link de favicon-->
      <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <style>
+            .bgRosa{
+                background-color: #FFC0CB;
+            }
+           
+     </style>
 </head>
 <body>
     <header>
@@ -26,17 +33,21 @@
             </ul>
         </nav>
     </header>
-    <main>
-       <section>
-        <h1>Comprar tickets</h1>
-        <img src="https://picsum.photos/300/300?grayscale&random=2" alt="random">
-       <!--  <img src="../assets/img/Steve_Jobs.jpg" alt="Steve Jobs">-->
-     
+    <main class="container-fluid bg-secondary margen">
+        <!-- la fila me permite usar 12 columnas en total-->
+       <section class="row">
+           <div class="col-9 col-sm-8 col-md-6 bg-secondary">
+            1
+           </div>
+            <div class="col-3 col-sm-4 col-md-6 bgRosa">
+              2
+            </div>
+        
        </section>
     </main>
     <footer>
 
     </footer>
-    
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
